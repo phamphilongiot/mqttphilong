@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "donate.vietinbank0978912207.phamminhty",
+    "module": "mqtt",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mqtt-0.0.1.aar",
+          "url": "mqtt-0.0.1.aar",
+          "size": 5537,
+          "sha512": "06fbb4acf25cc595c612f6a85845c992c5f22177573fc5cf8ee2214ddefab09c06dc207b06df79c9aaddd04703e1db57a0b8a2529887eb2ed6ff51a0fc6b4955",
+          "sha256": "803b14166fd8ec61a9ef10609cfc77c242a7ed3217eb49b869c50234e15144b2",
+          "sha1": "24ad5fa3770d8521d9e0ec4a9e905f95013bc271",
+          "md5": "68835059087942d6ab6fa7e29e2e283b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mqtt-0.0.1.aar",
+          "url": "mqtt-0.0.1.aar",
+          "size": 5537,
+          "sha512": "06fbb4acf25cc595c612f6a85845c992c5f22177573fc5cf8ee2214ddefab09c06dc207b06df79c9aaddd04703e1db57a0b8a2529887eb2ed6ff51a0fc6b4955",
+          "sha256": "803b14166fd8ec61a9ef10609cfc77c242a7ed3217eb49b869c50234e15144b2",
+          "sha1": "24ad5fa3770d8521d9e0ec4a9e905f95013bc271",
+          "md5": "68835059087942d6ab6fa7e29e2e283b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mqtt-0.0.1-sources.jar",
+          "url": "mqtt-0.0.1-sources.jar",
+          "size": 4994,
+          "sha512": "9ae64ec25af4ee0e9e34c6ac1de8c13c05a30c9dc0de67d61c0bc8516ce373567e0fb5a544d31068e5326b22478738204f5de0c89af2504cb7f2c9dabd9fa5c2",
+          "sha256": "d2d46b5d98fdec24a9c2218aa031b719b9f01962ec4b1721f884eb26f22ab322",
+          "sha1": "ecb506052bdc989dd1f57db5f74d762475107b38",
+          "md5": "a2e37d95042f46b8b5121b6bb3d6eead"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mqtt-0.0.1-javadoc.jar",
+          "url": "mqtt-0.0.1-javadoc.jar",
+          "size": 287863,
+          "sha512": "d34ccc9bb4bce138e4e6e5722ebe0a113915fc31ff482abaac7f30e18ff8d638f6b6029145ed5ff3d04609cac5646e4afad548634c94037388d51b165e148715",
+          "sha256": "531952ed239ca68a971f888a95d4c3262d42c23f822f864a2d31da804f36e8ea",
+          "sha1": "31b2b9feb32e87078e27331856b1535d660eae94",
+          "md5": "81c6ee894be72f52b4887bb11fd12b5a"
+        }
+      ]
+    }
+  ]
+}
